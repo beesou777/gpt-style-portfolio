@@ -1,0 +1,242 @@
+{
+  "owner": {
+    "name": "Bishwa Jung Shah",
+    "role": "Fullstack Developer",
+    "description": "A Fullstack Developer specializing in modern web technologies with a passion for building functional and visually appealing applications.",
+    "detailedDescription": "I focus on integrating smooth animations and interactive elements to enhance the user experience while ensuring performance optimization and clean code. I strive to deliver well-crafted projects that not only look good but are technically sound, focusing on code quality, web performance, and SEO best practices. My primary work involves front-end technologies like Vue.js and Node.js, with experience in managing backend services and handling databases like MongoDB and Postgres.",
+    "status": "🌴 On vacation",
+    "location": "Nepal",
+    "startYear": 2021,
+    "experience": "Building modern web applications since 2021",
+    "current_focus": "Fullstack development using Vue.js, Nuxt, React, Next.js, Hono.js, and Nest.js",
+    "professional_background": [
+      "Junior Developer at Hyteno/Morgenland (8 months) - Developed web applications with Vue.js and Nuxt",
+      "Intern at Mediaholic (5 months) - Worked on Vue.js projects and contributed to front-end development"
+    ],
+    "hobbies": [
+      "Watching anime and reading articles",
+      "Writing blogs to share knowledge and experiences",
+      "Creating and contributing to open-source projects",
+      "Building Discord bots and Telegram bots",
+      "Trying out new technologies and frameworks"
+    ]
+  },
+  "skills": {
+    "frontend": {
+      "frameworks": ["Nuxt", "Vue", "React", "Next.js", "Svelte"],
+      "styling": ["Tailwind CSS", "SCSS", "Bootstrap", "CSS"],
+      "languages": ["JavaScript", "TypeScript", "HTML"]
+    },
+    "backend": {
+      "frameworks": ["Node.js", "Express", "Hono.js", "Nest.js"],
+      "databases": ["MongoDB", "PostgreSQL"],
+      "languages": ["JavaScript", "TypeScript"]
+    },
+    "backendExperience": {
+      "primary": ["Nest.js", "Hono.js", "Node.js", "Express"],
+      "description": "Experienced in building scalable backend APIs and services using Nest.js and Hono.js frameworks"
+    },
+    "tools": {
+      "versionControl": ["Git", "GitHub"],
+      "design": ["Figma"],
+      "devOps": ["Nginx", "Linux", "Windows"],
+      "other": ["Bash", "Markdown"]
+    },
+    "expertise": [
+      "Performance Optimization",
+      "SEO Best Practices",
+      "Clean Code",
+      "Web Animations",
+      "Interactive UI/UX",
+      "API Development",
+      "Database Management"
+    ]
+  },
+  "workExperience": [
+    {
+      "role": "Junior Developer",
+      "company": "Hyteno/Morgenland",
+      "duration": "8 months",
+      "responsibilities": "Developed web applications, improved coding skills, and worked with Vue.js."
+    },
+    {
+      "role": "Intern",
+      "company": "Mediaholic",
+      "duration": "5 months",
+      "responsibilities": "Worked on Vue.js projects and contributed to front-end development."
+    }
+  ],
+  "projects": [
+    {
+      "name": "KamKhoj",
+      "description": "Nepal's most comprehensive job search platform - aggregating opportunities from all major portals. Search across MeroJob, Kantipur Job, JobsNepal, KumariJob, and more - all in one place.",
+      "type": "Commercial Project",
+      "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      "link": "https://kamkhoj.com/",
+      "icon": "💼",
+      "image": null,
+      "highlight": true
+    },
+    {
+      "name": "EventEir",
+      "description": "Norway's premier event platform. Discover, list, and manage events or get booked as a speaker all in one place. Empowering innovation through events.",
+      "type": "Commercial Project",
+      "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      "link": "https://eventeir.ai/",
+      "icon": "🎪",
+      "image": null,
+      "highlight": true
+    },
+    {
+      "name": "Baha Connect",
+      "description": "Nepal's Community & Home Management Tool. Simplifies community and home management for Nepalese communities, committees, and managers making communication, finances, and daily operations seamless.",
+      "type": "Commercial Project",
+      "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      "link": "http://ourbaha.com/",
+      "icon": "🏘️",
+      "image": null,
+      "highlight": true
+    },
+    {
+      "name": "Detech Solution",
+      "description": "IT Solutions company website. Collaborative partners providing custom IT solutions, web development, UI/UX design, digital marketing, and IT consulting services.",
+      "type": "Commercial Project",
+      "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      "link": "https://detech.com.np/",
+      "icon": "💻",
+      "image": null,
+      "highlight": true
+    },
+    {
+      "name": "Personal Portfolio",
+      "description": "Personal portfolio website showcasing projects, skills, and experience. Built with modern web technologies.",
+      "type": "Personal Project",
+      "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      "link": "https://bishwa-shah.netlify.app/",
+      "icon": "👤",
+      "image": null,
+      "highlight": false
+    },
+    {
+      "name": "vue-scroll-ease",
+      "description": "A Vue.js library for smooth scrolling animations",
+      "type": "npm package",
+      "tech": ["Vue.js", "TypeScript"],
+      "link": "https://github.com/beesou777/vue-scroll-ease",
+      "icon": "📦",
+      "image": null
+    },
+    {
+      "name": "Movix",
+      "description": "React movie app with modern UI and features",
+      "type": "Web Application",
+      "tech": ["React", "JavaScript"],
+      "link": "https://github.com/beesou777/movix",
+      "icon": "🎬",
+      "image": null
+    },
+    {
+      "name": "CargoSender",
+      "description": "Easy-to-use online platform for booking courier services with door-to-door delivery. Save up to 60% on international delivery with trusted courier partners like DHL and FedEx. Features real-time tracking, secure & insured parcel delivery, and transparent pricing.",
+      "type": "Commercial Project",
+      "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      "link": "https://cargosender.com/",
+      "icon": "📦",
+      "image": null,
+      "highlight": true
+    },
+    {
+      "name": "Blog Backend",
+      "description": "Backend API for blog application",
+      "type": "Backend API",
+      "tech": ["Node.js", "JavaScript"],
+      "link": "https://github.com/beesou777/blog-backend",
+      "icon": "📝",
+      "image": null
+    },
+    {
+      "name": "React Redux Setup",
+      "description": "React basic setup with Redux, SCSS, and Vite",
+      "type": "Starter Template",
+      "tech": ["React", "Redux", "SCSS", "Vite"],
+      "link": "https://github.com/beesou777/react-basic-setup-with-redux-scss-vite",
+      "icon": "⚛️",
+      "image": null
+    },
+    {
+      "name": "Random Things",
+      "description": "JavaScript optimization techniques and random experiments",
+      "type": "Code Collection",
+      "tech": ["JavaScript"],
+      "link": "https://github.com/beesou777/random-things",
+      "icon": "🎲",
+      "image": null
+    },
+    {
+      "name": "Hyteno",
+      "description": "Restaurant and marketing solutions website",
+      "type": "Commercial Project",
+      "tech": ["Vue.js", "Nuxt"],
+      "focus": "Modern UI and business-focused design",
+      "icon": "🍽️",
+      "image": null
+    },
+    {
+      "name": "Morgenland Tippeche",
+      "description": "Premium rug experience website",
+      "type": "Commercial Project",
+      "tech": ["Vue.js", "Nuxt"],
+      "focus": "High-end design and user experience",
+      "icon": "🏺",
+      "image": null
+    }
+  ],
+  "blogPosts": [
+    {
+      "title": "Understanding Lexical Scope and Closures in JavaScript",
+      "url": "https://medium.com/@shahbishwa21/understanding-lexical-scope-and-closures-in-javascript-ae16b050f47c",
+      "description": "Deep dive into lexical scope and how closures work in JavaScript"
+    },
+    {
+      "title": "Automate Daily Commits with GitHub Actions",
+      "url": "https://medium.com/@shahbishwa21/automate-daily-commits-with-random-content-using-github-actions-804736759c1d",
+      "description": "Learn how to automate commits using GitHub Actions"
+    },
+    {
+      "title": "JavaScript Safe Assignment Operator (?=): A Complete Guide",
+      "url": "https://medium.com/@shahbishwa21/introduction-to-the-safe-assignment-operator-in-javascript-ddc35e87d37c",
+      "description": "Introduction to the new Safe Assignment Operator in JavaScript"
+    },
+    {
+      "title": "Tailwind CSS vs. SCSS: Which is Right for Your Project?",
+      "url": "https://medium.com/@shahbishwa21/tailwind-css-vs-scss-which-is-right-for-your-project-6df79da6c68a",
+      "description": "Comparison between Tailwind CSS and SCSS for styling"
+    },
+    {
+      "title": "Destructuring Arrays in JavaScript: A Deep Dive",
+      "url": "https://medium.com/@shahbishwa21/destructuring-arrays-in-javascript-a-deep-dive-8aaa555fb71b",
+      "description": "Understanding how array destructuring works in JavaScript"
+    },
+    {
+      "title": "Mastering SCSS: The Correct Way to Use SCSS in Your Projects",
+      "url": "https://medium.com/@shahbishwa21/mastering-scss-the-correct-way-to-use-scss-in-your-projects-3a5cbc53e45b",
+      "description": "Best practices for using SCSS in your projects"
+    }
+  ],
+  "socialLinks": {
+    "github": "https://github.com/beesou777",
+    "linkedin": "https://linkedin.com/in/beesou-shah",
+    "instagram": "https://instagram.com/shah.bishwa77",
+    "facebook": "https://facebook.com/profile.php?id=100089079516208",
+    "medium": "https://medium.com/@shahbishwa21",
+    "email": "shahbishwa21@gmail.com",
+    "whatsapp": "9779862531293",
+    "eventeir": "http://bishwa.eventeir.ai/"
+  },
+  "achievements": [
+    "Starstruck",
+    "Pull Shark x3",
+    "YOLO",
+    "Quickdraw"
+  ]
+}
