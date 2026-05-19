@@ -46,14 +46,14 @@ export default function MessageContent({ content }: MessageContentProps) {
     // Extract project names from markers
     const projectMatches = content.matchAll(/{{PROJECTS:([^}]+)}}/g)
     const projectNames: string[] = []
-    for (const match of projectMatches) {
+    for (const match of projectMatches as any) {
       projectNames.push(match[1])
     }
 
     // Get projects from portfolio data
-    const projects: Project[] = projectNames
+    const projects:any[] = projectNames
       .map((name) => portfolioData.projects.find((p) => p.name === name))
-      .filter((p): p is Project => p !== undefined)
+      .filter((p:any): p is Project => p !== undefined)
 
     // Remove markers from content
     let cleanContent = content
@@ -64,7 +64,7 @@ export default function MessageContent({ content }: MessageContentProps) {
     // Get all unique tech stacks from projects
     const allTechStacks = new Set<string>()
     projects.forEach(project => {
-      project.tech?.forEach(tech => allTechStacks.add(tech))
+      project.tech?.forEach((tech: string) => allTechStacks.add(tech))
     })
     const uniqueTechs = Array.from(allTechStacks)
 
@@ -109,7 +109,7 @@ export default function MessageContent({ content }: MessageContentProps) {
                       </p>
                       {project.tech && project.tech.length > 0 && (
                         <div className="flex flex-wrap gap-1.5">
-                          {project.tech.map((tech) => (
+                          {project.tech.map((tech: string) => (
                             <span
                               key={tech}
                               className="text-xs text-gray-500 border border-gray-300 px-2 py-0.5 rounded"

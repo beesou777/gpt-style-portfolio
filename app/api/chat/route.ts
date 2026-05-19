@@ -112,7 +112,7 @@ function generateResponse(query: string): string {
   // Fun facts / Hobbies
   if (matchesKeywords(query, ['fun', 'interesting', 'hobby', 'interest', 'fun fact', 'cool', 'hobbies', 'what do you like'])) {
     const hobbies = portfolioData.owner.hobbies.map(h => `• ${h}`).join('\n')
-    return `Here are some fun things about Bishwa:\n\n${hobbies}\n\n**Fun Facts:**\n• 🌴 Currently on vacation and living his best life!\n• 📝 Writes technical articles on Medium about JavaScript, SCSS, and web development\n• 🤖 Enjoys building Discord bots and Telegram bots as side projects\n• 🎨 Passionate about creating interactive and visually appealing applications\n• 💡 Believes in not comparing yourself with others - focus on your own growth!\n• 🚀 Always exploring new technologies and contributing to open-source projects\n\nHe's passionate about web development and loves trying out new things!`
+    return `Here are some fun things about Bishwa:\n\n${hobbies}\n\n**Fun Facts:**\n• 🌴 Currently on vacation and living my best life!\n• 📝 Writes technical articles on Medium about JavaScript, SCSS, and web development\n• 🤖 Enjoys building Discord bots and Telegram bots as side projects\n• 🎨 Passionate about creating interactive and visually appealing applications\n• 💡 Believes in not comparing yourself with others - focus on your own growth!\n• 🚀 Always exploring new technologies and contributing to open-source projects\n\nHe's passionate about web development and loves trying out new things!`
   }
 
   // About Me / Tell me about yourself

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import portfolioData from '@/data/portfolio.json'
 
 export default function SkillsSection() {
-  const { skills } = portfolioData
+  const { skills } = portfolioData as { skills: any }
 
   const skillCategories = [
     { title: 'Frameworks', skills: skills.frameworks, color: 'blue' },
@@ -54,7 +54,7 @@ export default function SkillsSection() {
                 {category.title}
               </h3>
               <div className="flex flex-wrap gap-2">
-                {category.skills.map((skill) => (
+                {category.skills.map((skill: string) => (
                   <span
                     key={skill}
                     className="px-3 py-1 bg-chat-sidebar text-sm text-gray-300 rounded-lg border border-gray-700"
